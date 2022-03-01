@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container py-5">
+            <h1 class="fw-bolder">Bookmarker</h1>
+        </div>
+    </header>
+
+    <div class="addSiteSection my-3">
+        <div class="contain mx-auto py-3 w-75 d-flex flex-column align align-items-center">
+            <h3 class="mt-5 mb-3">Bookmark your favorite sites</h3>
+            
+            <label for="siteName" class="my-1 fw-bolder">Site Name</label>
+            <input type="text" class="w-75 my-2" placeholder="Bookmark Name" id="siteName">
+            <label for="siteName" class="mt-1 mb-2 p-1 fw-bolder w-75 text-center d-none" id="errorLabelName">Name is required</label>
+            
+            <label for="siteUrl" class="my-1 fw-bolder">Site URL</label>
+            <input type="text" class="w-75 my-2" placeholder="Website URL" id="siteUrl">
+            <label for="siteName" class="mt-1 mb-2 p-1 fw-bolder w-75 text-center d-none" id="errorLabelUrl">URL is required</label>
+
+            <div>
+                <button class="btn btn-primary my-4 d-none" id="updateBtn">Update</button>
+                <button class="btn btn-primary my-4" id="submitBtn">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="displaySitesSection">
+        <input id="searchInput" type="text" class="w-50 p-2 my-5 mx-auto d-none" placeholder="search...">
+        <div id="displaySites">
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container py-4">
+            <p class="fw-bolder">© 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

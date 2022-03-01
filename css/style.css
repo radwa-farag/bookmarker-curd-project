@@ -1,0 +1,46 @@
+h1
+{
+    font-size: 2rem;
+    color:rgb(180, 176, 176);
+}
+
+header .container
+{
+    border-bottom: rgb(148, 142, 142) 1px solid;
+}
+input
+{
+    border-radius: 5px;
+    border: 1px solid rgb(180, 176, 176);
+    padding-left: 5px;
+}
+#errorLabelName , #errorLabelUrl
+{
+    border-radius: 5px;
+    border: 1px solid rgba(114, 4, 4, 0.856);
+    background-color: rgba(255, 115, 161,0.5);
+    color: rgba(114, 4, 4, 0.856);
+    font-size: 1.2rem;
+}
+
+.addSiteSection .contain
+{
+    background-color:rgb(223, 223, 223) ;
+}
+
+
+.displaySitesSection .item
+{
+    background-image: linear-gradient(#EEE,#FFF);
+}
+
+footer
+{
+    color:rgb(180, 176, 176);
+}
+
+
+footer .container
+{
+    border-top: rgb(148, 142, 142) 1px solid;
+}
